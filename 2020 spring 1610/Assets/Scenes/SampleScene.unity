@@ -155,6 +155,7 @@ MonoBehaviour:
   cash: 0
   coin: 0
   money: 
+  rich: 0
 --- !u!65 &399128933
 BoxCollider:
   m_ObjectHideFlags: 0
