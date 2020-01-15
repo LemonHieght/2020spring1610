@@ -10,6 +10,7 @@ public class NewClass : MonoBehaviour
     //fraction numbers
     public string money;
     //words
+    public string nameString;
     public bool rich;
     //true or false
 
@@ -18,6 +19,7 @@ public class NewClass : MonoBehaviour
     //Nothing Whatever
     {
         print("Nothing Whatever");
+        print(nameString);
     }
 
     // Update is called once per frame
