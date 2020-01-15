@@ -9,6 +9,7 @@ public class Controller : MonoBehaviour
     public bool playerMove;
     public bool playerJump;
     private Rigidbody myRigidBody;
+    private Vector3 velo;
 
     // Start is called before the first frame update
     void Start()
@@ -19,17 +20,7 @@ public class Controller : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        playerMove = false;
-
-        if(Input.GetAxisRaw("Horizontal")> 0.5f || Input.GetAxisRaw("Horizontal")< -0.5f)
-        {
-            myRigidBody.velocity = new Vector3(Input.GetAxisRaw("Horizontal") * playerSpeed, myRigidBody.velocity.y);
-            playerMove = true;
-        }
-        if(Input.GetAxisRaw("Vertical")> 0.5f || Input.GetAxisRaw("Vertical")< -0.5f)
-        {
-            myRigidBody.velocity = new Vector3(Input.GetAxisRaw("Vertical") * playerSpeed, myRigidBody.velocity.x);
-            playerMove = true;
-        }
+        myRigidBody.velocity = velo;
+        velo = new Vector3(Input.GetAxisRaw("Horizontal"),0, Input.GetAxisRaw("Vertical")).normalized * playerSpeed;
     }
 }
