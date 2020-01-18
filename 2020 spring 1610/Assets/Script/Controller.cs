@@ -11,7 +11,7 @@ public class Controller : MonoBehaviour
     public bool playerJump;
     public bool snowGoggles;
     private Rigidbody myRigidBody;
-    private Vector3 velo;
+    private Vector3 move;
 
     // Start is called before the first frame update
     void Start()
@@ -20,17 +20,28 @@ public class Controller : MonoBehaviour
     }
 
     // Update is called once per frame
+    void Update()
+    {
+        move = new Vector3(Input.GetAxisRaw("Horizontal"),0f, Input.GetAxisRaw("Vertical"));
+
+        
+        if(Input.GetButtonDown("Jump"))
+        {
+            myRigidBody.velocity = Vector3.up * jumpPower;
+        }
+        if(myRigidBody.velocity.y < 0)
+        {
+            myRigidBody.velocity += Vector3.up * Physics.gravity.y * (jumpFall - 1) * Time.deltaTime;
+        }
+    }
+    
     void FixedUpdate()
     {
-        
-        velo = new Vector3(Input.GetAxisRaw("Horizontal"),0, Input.GetAxisRaw("Vertical")).normalized * playerSpeed;
-        myRigidBody.velocity = velo;
-        
-        if(velo != Vector3.zero)
-        {
-            transform.forward = velo;
-        }
+        Movement(move);
+    }
 
-    
+    void Movement(Vector3 direction)
+    {
+        myRigidBody.MovePosition(transform.position + (direction * playerSpeed * Time.deltaTime));
     }
 }

@@ -27,7 +27,21 @@ public class NewClass : MonoBehaviour
     {
         print("NOTHING WHATEVER!!!!!!!!!!!!!!");
 
-            // if(playerJump == false)
+      
+    }
+}
+        // //this is old movement
+        // move = new Vector3(Input.GetAxisRaw("Horizontal"),0f, Input.GetAxisRaw("Vertical")).normalized* playerSpeed;
+        // myRigidBody.velocity = move;
+        
+        // if(move != Vector3.zero)
+        // {
+        //     transform.forward = move;
+        // }
+
+
+        // // old jump
+              // if(playerJump == false)
         // {
         //     if(Input.GetButtonDown("Jump"))
         //     {
@@ -45,5 +59,3 @@ public class NewClass : MonoBehaviour
         // {
             
         // }
-    }
-}
