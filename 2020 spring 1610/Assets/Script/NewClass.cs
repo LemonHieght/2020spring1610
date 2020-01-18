@@ -26,5 +26,24 @@ public class NewClass : MonoBehaviour
     void Update()
     {
         print("NOTHING WHATEVER!!!!!!!!!!!!!!");
+
+            // if(playerJump == false)
+        // {
+        //     if(Input.GetButtonDown("Jump"))
+        //     {
+        //         myRigidBody.velocity = Vector3.up * jumpPower;
+        //         playerJump = true;
+        //     }
+
+        //     if(myRigidBody.velocity.y < 0)
+        //     {
+        //         myRigidBody.velocity += Vector3.up * Physics.gravity.y * (jumpFall - 1) * Time.deltaTime;
+        //         playerJump = true;
+        //     }
+        // }
+        // else if(playerJump == true)
+        // {
+            
+        // }
     }
 }

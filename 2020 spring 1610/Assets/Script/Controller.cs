@@ -6,8 +6,10 @@ public class Controller : MonoBehaviour
 {
     public float playerSpeed;
     public float jumpPower;
+    public float jumpFall;
     public bool playerMove;
     public bool playerJump;
+    public bool snowGoggles;
     private Rigidbody myRigidBody;
     private Vector3 velo;
 
@@ -18,9 +20,17 @@ public class Controller : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
-        myRigidBody.velocity = velo;
+        
         velo = new Vector3(Input.GetAxisRaw("Horizontal"),0, Input.GetAxisRaw("Vertical")).normalized * playerSpeed;
+        myRigidBody.velocity = velo;
+        
+        if(velo != Vector3.zero)
+        {
+            transform.forward = velo;
+        }
+
+    
     }
 }
