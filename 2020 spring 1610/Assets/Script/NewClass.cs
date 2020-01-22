@@ -13,6 +13,8 @@ public class NewClass : MonoBehaviour
     public string nameString;
     public bool rich;
     //true or false
+    
+    // public UnityEngine.Event uEvent;
 
     // Start is called before the first frame update
     void Start()
@@ -20,6 +22,7 @@ public class NewClass : MonoBehaviour
     {
         print("Nothing Whatever");
         print(nameString);
+        // uEvent.Invoke();
     }
 
     // Update is called once per frame
