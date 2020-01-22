@@ -45,6 +45,10 @@ public class Controller : MonoBehaviour
     void Movement(Vector3 direction)
     {
         myRigidBody.MovePosition(transform.position + (direction * playerSpeed * Time.deltaTime));
+           if(move != Vector3.zero)
+        {
+            transform.forward = move;
+        }
     }
     
     void OnCollisionStay()
