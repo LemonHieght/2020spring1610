@@ -41,3 +41,28 @@ public class NewClass : MonoBehaviour
         // {
         //     transform.forward = move;
         // }
+
+        // // Bad camera code
+        // if (target == null)
+        // {
+        //     Debug.LogWarning("Missing target ref!", this);
+        // }
+        // if (offSetPositionSpace == Space.Self)
+        // {
+        //     transform.position = player.Transformpoint(offSetPosition);
+        // }
+        // else
+        // {
+        //     transform.position = player.position + offSetPosition;
+        // }
+        // if(lookAt)
+        // {
+        //     transform.LookAt(player);
+        // }
+        // else
+        // {
+        //     transform.rotation = player.rotation;
+        // }
+        
+        // // found in unity docs under Space.Self
+        // transform.Rotate(Vector3.up * moveSpeed *Time.deltaTime, Space.Self);
