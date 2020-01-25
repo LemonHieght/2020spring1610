@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class NewClass : MonoBehaviour
-{
+{ //This is the dump of bad code
     public int cash;
     //whole numbers
     public float coin;
