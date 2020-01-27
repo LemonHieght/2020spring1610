@@ -14,7 +14,7 @@ public class Collectables : MonoBehaviour
         if (true)
         {
             print("trigger");
-            // gameObject.SetActive(false);
+            gameObject.SetActive(false);
         }
         triggerEnterEvent.Invoke();
     }
