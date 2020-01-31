@@ -9,14 +9,14 @@ public class Collectables : MonoBehaviour
     public GameObject player;
     public UnityEvent triggerEnterEvent;
     
-    private void OnTriggerEnter(Collider player)
+    private void OnTriggerEnter(Collider Player)
     {
         
-        if (true)
+        if (player)
         {
             triggerEnterEvent.Invoke();
             print("trigger");
-            // gameObject.SetActive(false);
+            Destroy(this.gameObject);
         }
     }
 }

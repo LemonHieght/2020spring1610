@@ -9,6 +9,7 @@ public class Projectiles : MonoBehaviour
     private Rigidbody bulletBody;
     private Vector3 screenLimit;
     public float bulletTimmer;
+    public int damage;
 
 
     private void Start()
@@ -21,11 +22,6 @@ public class Projectiles : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        // if (transform.position.x > screenLimit.x * -2);
-        // {
-        //     gameObject.SetActive(false);
-        //     print("you stupid");
-        // }
         if(bulletTimmer > 0)
         {
             bulletTimmer -= Time.deltaTime;
@@ -37,11 +33,12 @@ public class Projectiles : MonoBehaviour
         }
     }
 
-    private void OnTriggerEnter(Collider other)
+    private void OnTriggerEnter(Collider hitInfo)
     {
-        if (other.tag == "enemy")
+        Enemy enemy = hitInfo.GetComponent<Enemy>();
+        if (enemy != null)
         {
-            print("die");
+            enemy.TakeDamage(damage);
         }
     }
 }

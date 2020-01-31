@@ -74,3 +74,9 @@ public class NewClass : MonoBehaviour
 //     instRigidbody.transform.position += transform.forward * (speed * Time.deltaTime);
 //     
 // }
+
+// if (transform.position.x > screenLimit.x * -2);
+// {
+//     gameObject.SetActive(false);
+//     print("you stupid");
+// }
