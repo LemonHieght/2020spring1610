@@ -66,3 +66,11 @@ public class NewClass : MonoBehaviour
         
         // // found in unity docs under Space.Self
         // transform.Rotate(Vector3.up * moveSpeed *Time.deltaTime, Space.Self);
+        
+// if (Input.GetKeyDown(KeyCode.Mouse1))
+// { 
+//     GameObject instBullet = Instantiate(bullet, transform.position, Quaternion.identity) as GameObject;
+//     Rigidbody instRigidbody = instBullet.GetComponent<Rigidbody>();
+//     instRigidbody.transform.position += transform.forward * (speed * Time.deltaTime);
+//     
+// }
