@@ -12,8 +12,10 @@
           <e p="Collectables.cs" t="Include" />
           <e p="Controller.cs" t="Include" />
           <e p="Enemy.cs" t="Include" />
+          <e p="EnemyAI.cs" t="Include" />
           <e p="FireGun.cs" t="Include" />
           <e p="NewClass.cs" t="Include" />
+          <e p="PlayerLocation.cs" t="Include" />
           <e p="Projectiles.cs" t="Include" />
           <e p="RayCastFire.cs" t="Include" />
           <e p="TriggerEvents.cs" t="Include" />

@@ -11,12 +11,14 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Script/EnemyAI.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/FireGun.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/Projectiles.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/NewClass.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/Controller.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/Collectables.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/TriggerEvents.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/PlayerLocation.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/RayCastFire.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/Enemy.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -31,6 +33,8 @@
         <option value="$PROJECT_DIR$/Assets/Script/Projectiles.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/Collectables.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/Enemy.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/PlayerLocation.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/EnemyAI.cs" />
       </list>
     </option>
   </component>
@@ -91,7 +95,7 @@
       <updated>1579548773267</updated>
       <workItem from="1579548778669" duration="86000" />
       <workItem from="1580146240033" duration="4047000" />
-      <workItem from="1580317524029" duration="17722000" />
+      <workItem from="1580317524029" duration="22027000" />
     </task>
     <servers />
   </component>
