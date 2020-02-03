@@ -32,9 +32,9 @@
         <option value="$PROJECT_DIR$/Assets/Script/Enemy.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/PlayerLocation.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/EnemyAI.cs" />
-        <option value="$PROJECT_DIR$/Assets/Script/RayCastFire.cs" />
-        <option value="$PROJECT_DIR$/Assets/Script/Collectables.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/Projectiles.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Collectables.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/RayCastFire.cs" />
       </list>
     </option>
   </component>
@@ -96,7 +96,7 @@
       <workItem from="1579548778669" duration="86000" />
       <workItem from="1580146240033" duration="4047000" />
       <workItem from="1580317524029" duration="22027000" />
-      <workItem from="1580747733811" duration="4162000" />
+      <workItem from="1580747733811" duration="7154000" />
     </task>
     <servers />
   </component>
@@ -123,5 +123,9 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="425" y="199" key="run.anything.popup/0.0.1536.864@0.0.1536.864" timestamp="1580146661914" />
+    <state x="496" y="219" width="672" height="678" key="search.everywhere.popup" timestamp="1580752493444">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="496" y="219" width="672" height="678" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1580752493444" />
   </component>
 </project>
