@@ -7,7 +7,6 @@ public class Projectiles : MonoBehaviour
 {
     public float speed;
     private Rigidbody bulletBody;
-    private Vector3 screenLimit;
     public float bulletTimmer;
     public int damage;
 
@@ -16,7 +15,6 @@ public class Projectiles : MonoBehaviour
     {
         bulletBody = this.GetComponent<Rigidbody>();
         bulletBody.velocity = transform.forward * speed;
-        screenLimit = Camera.main.ScreenToWorldPoint(new Vector3(Screen.width, Screen.height, Camera.main.transform.position.z));
     }
 
     // Update is called once per frame
@@ -39,6 +37,12 @@ public class Projectiles : MonoBehaviour
         if (enemy != null)
         {
             enemy.TakeDamage(damage);
+            Destroy(gameObject);
+        }
+
+        if (hitInfo.gameObject.tag == "Enviroment")
+        {
+            Destroy(gameObject);
         }
     }
 }

@@ -27,14 +27,14 @@
       <list>
         <option value="$PROJECT_DIR$/Assets/Script/TriggerEvents.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/FireGun.cs" />
-        <option value="$PROJECT_DIR$/Assets/Script/RayCastFire.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/NewClass.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/Enemy1.cs" />
-        <option value="$PROJECT_DIR$/Assets/Script/Projectiles.cs" />
-        <option value="$PROJECT_DIR$/Assets/Script/Collectables.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/Enemy.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/PlayerLocation.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/EnemyAI.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/RayCastFire.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Collectables.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Projectiles.cs" />
       </list>
     </option>
   </component>
@@ -96,6 +96,7 @@
       <workItem from="1579548778669" duration="86000" />
       <workItem from="1580146240033" duration="4047000" />
       <workItem from="1580317524029" duration="22027000" />
+      <workItem from="1580747733811" duration="4162000" />
     </task>
     <servers />
   </component>

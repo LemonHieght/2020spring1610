@@ -17,6 +17,6 @@ public class RayCastFire : MonoBehaviour
 
     void Shoot()
     {
-        Instantiate(bulletPreFab, firePoint.position, firePoint.rotation);
+        Instantiate(bulletPreFab, firePoint.position , firePoint.rotation);
     }
 }

@@ -9,10 +9,10 @@ public class Collectables : MonoBehaviour
     public GameObject player;
     public UnityEvent triggerEnterEvent;
     
-    private void OnTriggerEnter(Collider Player)
+    private void OnTriggerEnter(Collider theCollision)
     {
         
-        if (player)
+        if (theCollision.gameObject.tag == "Character" )
         {
             triggerEnterEvent.Invoke();
             print("trigger");
