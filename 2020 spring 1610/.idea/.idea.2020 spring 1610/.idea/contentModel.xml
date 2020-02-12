@@ -18,6 +18,7 @@
           <e p="PlayerLocation.cs" t="Include" />
           <e p="Projectiles.cs" t="Include" />
           <e p="RayCastFire.cs" t="Include" />
+          <e p="SnowStorm.cs" t="Include" />
           <e p="TriggerEvents.cs" t="Include" />
         </e>
       </e>
