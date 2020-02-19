@@ -12,16 +12,19 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Script/EnemyAI.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Script/FireGun.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/Projectiles.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Script/NewClass.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Script/SnowStorm.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Script/Controller.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/Collectables.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Script/TriggerEvents.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/CameraMovement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/PlayerLocation.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/RayCastFire.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/Enemy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/DynamicCamera.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/FireGun.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/NewClass.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/SnowStorm.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/Controller.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/NavMeshController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/TriggerEvents.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -32,11 +35,13 @@
         <option value="$PROJECT_DIR$/Assets/Script/Enemy1.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/Enemy.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/PlayerLocation.cs" />
-        <option value="$PROJECT_DIR$/Assets/Script/EnemyAI.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/Projectiles.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/Collectables.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/RayCastFire.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/SnowStorm.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/DynamicCamera.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/NavMeshController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/EnemyAI.cs" />
       </list>
     </option>
   </component>
@@ -100,6 +105,7 @@
       <workItem from="1580317524029" duration="22027000" />
       <workItem from="1580747733811" duration="7753000" />
       <workItem from="1581528411925" duration="2357000" />
+      <workItem from="1582073430017" duration="2479000" />
     </task>
     <servers />
   </component>
