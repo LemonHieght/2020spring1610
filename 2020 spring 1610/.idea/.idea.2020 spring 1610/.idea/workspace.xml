@@ -16,8 +16,10 @@
     <setting file="file://$PROJECT_DIR$/Assets/Script/Collectables.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/CameraMovement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/PlayerLocation.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/FloatData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/RayCastFire.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/Enemy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/IntData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/DynamicCamera.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/FireGun.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/NewClass.cs" root0="FORCE_HIGHLIGHTING" />
@@ -42,6 +44,8 @@
         <option value="$PROJECT_DIR$/Assets/Script/DynamicCamera.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/NavMeshController.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/EnemyAI.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/FloatData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/IntData.cs" />
       </list>
     </option>
   </component>
@@ -105,7 +109,7 @@
       <workItem from="1580317524029" duration="22027000" />
       <workItem from="1580747733811" duration="7753000" />
       <workItem from="1581528411925" duration="2357000" />
-      <workItem from="1582073430017" duration="2479000" />
+      <workItem from="1582073430017" duration="4270000" />
     </task>
     <servers />
   </component>
