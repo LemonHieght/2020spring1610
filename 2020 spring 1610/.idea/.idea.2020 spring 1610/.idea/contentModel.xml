@@ -16,13 +16,14 @@
           <e p="EnemyAI.cs" t="Include" />
           <e p="FireGun.cs" t="Include" />
           <e p="FloatData.cs" t="Include" />
+          <e p="ImageBehavior.cs" t="Include" />
           <e p="IntData.cs" t="Include" />
           <e p="NavMeshController.cs" t="Include" />
           <e p="NewClass.cs" t="Include" />
           <e p="PlayerLocation.cs" t="Include" />
           <e p="Projectiles.cs" t="Include" />
           <e p="RayCastFire.cs" t="Include" />
-          <e p="SnowStorm.cs" t="Include" />
+          <e p="TextBehavior.cs" t="Include" />
           <e p="TriggerEvents.cs" t="Include" />
         </e>
       </e>
