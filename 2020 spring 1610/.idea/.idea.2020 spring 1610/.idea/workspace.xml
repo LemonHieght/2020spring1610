@@ -49,6 +49,7 @@
         <option value="$PROJECT_DIR$/Assets/Script/TextBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/ImageBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/TriggerEvents.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Controller.cs" />
       </list>
     </option>
   </component>
@@ -113,6 +114,7 @@
       <workItem from="1580747733811" duration="7753000" />
       <workItem from="1581528411925" duration="2357000" />
       <workItem from="1582073430017" duration="8375000" />
+      <workItem from="1587664540705" duration="801000" />
     </task>
     <servers />
   </component>

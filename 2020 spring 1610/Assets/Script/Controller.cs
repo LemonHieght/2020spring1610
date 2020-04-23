@@ -22,7 +22,8 @@ public class Controller : MonoBehaviour
     void Update()
     {
         //move input
-        move = new Vector3(Input.GetAxisRaw("Horizontal"),0f, Input.GetAxisRaw("Vertical"));
+        // move = new Vector3(Input.GetAxisRaw("Horizontal"),0f, Input.GetAxisRaw("Vertical"));
+        move = new Vector3(Input.GetAxisRaw("Horizontal"),0f, 0f);
 
         //jump
         if(Input.GetButtonDown("Jump") && grounded)
