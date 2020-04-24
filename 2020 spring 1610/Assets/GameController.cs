@@ -4,9 +4,20 @@ using UnityEngine;
 
 public class GameController : MonoBehaviour
 {
-
+    private bool gameHasEnded = false;
+    public GameObject gameOverUI;
     public void EndGame()
     {
-        Debug.Log("Game Over");
+        if (gameHasEnded == false)
+        {
+            gameHasEnded = true;
+            Debug.Log("Game Over");
+            GameOver();
+        }
+    }
+
+    void GameOver()
+    {
+        gameOverUI.SetActive(true);
     }
 }
