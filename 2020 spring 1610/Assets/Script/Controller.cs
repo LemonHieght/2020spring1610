@@ -8,7 +8,9 @@ public class Controller : MonoBehaviour
     public float jumpPower;
     public float jumpFall;
     public bool grounded;
-    public bool snowGoggles;
+    public bool alive = true;
+    public FloatData healthBar;
+    public float health;
     private Rigidbody myRigidBody;
     private Vector3 move;
 
@@ -21,20 +23,33 @@ public class Controller : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //move input
-        // move = new Vector3(Input.GetAxisRaw("Horizontal"),0f, Input.GetAxisRaw("Vertical"));
-        move = new Vector3(Input.GetAxisRaw("Horizontal"),0f, 0f);
-
-        //jump
-        if(Input.GetButtonDown("Jump") && grounded)
+        health = healthBar.value;
+        if (health <= 0f)
         {
-            myRigidBody.velocity = Vector3.up * jumpPower;
-            grounded = false;
+            alive = false;
         }
-        //fall
-        if(myRigidBody.velocity.y < 0)
+        if (alive == true)
         {
-            myRigidBody.velocity += Vector3.up * Physics.gravity.y * (jumpFall - 1) * Time.deltaTime;
+            //move input
+            // move = new Vector3(Input.GetAxisRaw("Horizontal"),0f, Input.GetAxisRaw("Vertical"));
+            move = new Vector3(Input.GetAxisRaw("Horizontal"),0f, 0f);
+
+            //jump
+            if(Input.GetButtonDown("Jump") && grounded)
+            {
+                myRigidBody.velocity = Vector3.up * jumpPower;
+                grounded = false;
+            }
+            //fall
+            if(myRigidBody.velocity.y < 0)
+            {
+                myRigidBody.velocity += Vector3.up * Physics.gravity.y * (jumpFall - 1) * Time.deltaTime;
+            }
+        }
+        else
+        {
+            move = new Vector3(0f,0f, 0f);
+            FindObjectOfType<GameController>().EndGame();
         }
     }
     //FixedUpdate is called every physics update

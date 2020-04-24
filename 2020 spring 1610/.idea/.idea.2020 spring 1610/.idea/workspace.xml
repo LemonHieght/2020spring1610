@@ -19,6 +19,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Script/CameraMovement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/PlayerLocation.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/FloatData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/GameController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/RayCastFire.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/Enemy.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/IntData.cs" root0="FORCE_HIGHLIGHTING" />
@@ -50,8 +51,9 @@
         <option value="$PROJECT_DIR$/Assets/Script/TextBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/ImageBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/TriggerEvents.cs" />
-        <option value="$PROJECT_DIR$/Assets/Script/Controller.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/HurtPlayer.cs" />
+        <option value="$PROJECT_DIR$/Assets/GameController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Controller.cs" />
       </list>
     </option>
   </component>
@@ -117,7 +119,7 @@
       <workItem from="1581528411925" duration="2357000" />
       <workItem from="1582073430017" duration="8375000" />
       <workItem from="1587664540705" duration="2003000" />
-      <workItem from="1587697945129" duration="2001000" />
+      <workItem from="1587697945129" duration="3524000" />
     </task>
     <servers />
   </component>

@@ -7,6 +7,7 @@
       <e p="2020 spring 1610.sln" t="IncludeFlat" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="GameController.cs" t="Include" />
         <e p="Script" t="Include">
           <e p="CameraMovement.cs" t="Include" />
           <e p="Collectables.cs" t="Include" />
