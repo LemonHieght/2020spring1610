@@ -16,6 +16,7 @@
           <e p="EnemyAI.cs" t="Include" />
           <e p="FireGun.cs" t="Include" />
           <e p="FloatData.cs" t="Include" />
+          <e p="HurtPlayer.cs" t="Include" />
           <e p="ImageBehavior.cs" t="Include" />
           <e p="IntData.cs" t="Include" />
           <e p="NavMeshController.cs" t="Include" />

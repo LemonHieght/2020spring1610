@@ -13,6 +13,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Script/EnemyAI.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/ImageBehavior.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/HurtPlayer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/Projectiles.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/Collectables.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/CameraMovement.cs" root0="FORCE_HIGHLIGHTING" />
@@ -50,6 +51,7 @@
         <option value="$PROJECT_DIR$/Assets/Script/ImageBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/TriggerEvents.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/Controller.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/HurtPlayer.cs" />
       </list>
     </option>
   </component>
@@ -114,7 +116,8 @@
       <workItem from="1580747733811" duration="7753000" />
       <workItem from="1581528411925" duration="2357000" />
       <workItem from="1582073430017" duration="8375000" />
-      <workItem from="1587664540705" duration="1405000" />
+      <workItem from="1587664540705" duration="2003000" />
+      <workItem from="1587697945129" duration="1399000" />
     </task>
     <servers />
   </component>
