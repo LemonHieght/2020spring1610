@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameController : MonoBehaviour
 {
@@ -19,5 +20,10 @@ public class GameController : MonoBehaviour
     void GameOver()
     {
         gameOverUI.SetActive(true);
+    }
+
+    void PlayGame()
+    {
+        
     }
 }
