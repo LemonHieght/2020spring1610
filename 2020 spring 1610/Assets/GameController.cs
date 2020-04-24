@@ -22,8 +22,18 @@ public class GameController : MonoBehaviour
         gameOverUI.SetActive(true);
     }
 
-    void PlayGame()
+    public void PlayGame()
     {
-        
+        SceneManager.LoadScene(0);
+    }
+
+    public void MenuStart()
+    {
+        SceneManager.LoadScene(1);
+    }
+
+    public void QuitGame()
+    {
+        Application.Quit();
     }
 }
