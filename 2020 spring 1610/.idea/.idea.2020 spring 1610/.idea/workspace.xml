@@ -40,7 +40,6 @@
         <option value="$PROJECT_DIR$/Assets/Script/Enemy.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/PlayerLocation.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/Projectiles.cs" />
-        <option value="$PROJECT_DIR$/Assets/Script/Collectables.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/RayCastFire.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/SnowStorm.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/DynamicCamera.cs" />
@@ -54,6 +53,7 @@
         <option value="$PROJECT_DIR$/Assets/Script/HurtPlayer.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/Controller.cs" />
         <option value="$PROJECT_DIR$/Assets/GameController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Collectables.cs" />
       </list>
     </option>
   </component>
@@ -119,7 +119,7 @@
       <workItem from="1581528411925" duration="2357000" />
       <workItem from="1582073430017" duration="8375000" />
       <workItem from="1587664540705" duration="2003000" />
-      <workItem from="1587697945129" duration="8212000" />
+      <workItem from="1587697945129" duration="11584000" />
     </task>
     <servers />
   </component>

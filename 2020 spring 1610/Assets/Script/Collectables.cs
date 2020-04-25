@@ -7,20 +7,9 @@ using UnityEngine.Events;
 
 public class Collectables : MonoBehaviour
 {
-    public GameObject player;
-    public UnityEvent triggerEnterEvent;
-    public GameObject collectObject;
-    public Transform items;
-    
-    private void OnTriggerEnter(Collider theCollision)
+    public UnityEvent triggerEnter;
+    private void OnCollisionEnter(Collision other)
     {
-        
-        if (theCollision.gameObject.tag == "Character" )
-        {
-            triggerEnterEvent.Invoke();
-            print("trigger"); 
-            gameObject.SetActive(false);
-            Instantiate(collectObject, items.position , items.rotation);
-        }
+        triggerEnter.Invoke();
     }
 }
