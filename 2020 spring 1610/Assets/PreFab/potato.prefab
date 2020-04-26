@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 8719777696838501100}
   - component: {fileID: 594038787498460462}
   - component: {fileID: 5816270757093984808}
+  - component: {fileID: 8468396054535611461}
   m_Layer: 0
   m_Name: potato
   m_TagString: Untagged
@@ -92,6 +93,25 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!95 &8468396054535611461
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1419968574954564458}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d31485f68ab7b9141919dc9679c29f01, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &8198969356127445778
 GameObject:
   m_ObjectHideFlags: 0

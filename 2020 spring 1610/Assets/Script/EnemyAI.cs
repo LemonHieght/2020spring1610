@@ -7,8 +7,10 @@ using UnityEngine.AI;
 public class EnemyAI : MonoBehaviour
 {
     public float lookRadius;
+    private bool seePlayer;
     private Transform target;
     private NavMeshAgent agent;
+    public Animator animator;
 
     // Start is called before the first frame update
     void Start()
@@ -24,7 +26,13 @@ public class EnemyAI : MonoBehaviour
         if (distance <= lookRadius)
         {
             agent.SetDestination(target.position);
+            seePlayer = true;
         }
+        else
+        {
+            seePlayer = false;
+        }
+        animator.SetBool("Chase", seePlayer);
     }
 
     private void OnDrawGizmos()
