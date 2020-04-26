@@ -7,6 +7,7 @@ public class GameController : MonoBehaviour
 {
     private bool gameHasEnded = false;
     public GameObject gameOverUI;
+    public IntData score;
     public void EndGame()
     {
         if (gameHasEnded == false)
@@ -14,6 +15,8 @@ public class GameController : MonoBehaviour
             gameHasEnded = true;
             Debug.Log("Game Over");
             GameOver();
+            score.value = 0;
+
         }
     }
 
