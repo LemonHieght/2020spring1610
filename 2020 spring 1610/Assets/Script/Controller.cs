@@ -13,6 +13,7 @@ public class Controller : MonoBehaviour
     public float health;
     private Rigidbody myRigidBody;
     private Vector3 move;
+    public Animator animator;
 
     // Start is called before the first frame update
     void Start()
@@ -52,6 +53,7 @@ public class Controller : MonoBehaviour
             move = new Vector3(0f,0f, 0f);
             FindObjectOfType<GameController>().EndGame();
         }
+        animator.SetFloat("Move", Mathf.Abs(Input.GetAxisRaw("Horizontal")));
     }
     //FixedUpdate is called every physics update
     void FixedUpdate()
