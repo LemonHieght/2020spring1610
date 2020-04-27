@@ -12,6 +12,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Script/EnemyAI.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/GameController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/ImageBehavior.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/HurtPlayer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/Projectiles.cs" root0="FORCE_HIGHLIGHTING" />
@@ -19,10 +20,8 @@
     <setting file="file://$PROJECT_DIR$/Assets/Script/CameraMovement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/PlayerLocation.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/FloatData.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/GameController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/RayCastFire.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/Enemy.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/HunterAnimation.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/IntData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/DynamicCamera.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/FireGun.cs" root0="FORCE_HIGHLIGHTING" />
@@ -56,6 +55,7 @@
         <option value="$PROJECT_DIR$/Assets/Script/RayCastFire.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/EnemyAI.cs" />
         <option value="$PROJECT_DIR$/Assets/GameController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/GameController.cs" />
       </list>
     </option>
   </component>
@@ -121,7 +121,7 @@
       <workItem from="1581528411925" duration="2357000" />
       <workItem from="1582073430017" duration="8375000" />
       <workItem from="1587664540705" duration="2003000" />
-      <workItem from="1587697945129" duration="23123000" />
+      <workItem from="1587697945129" duration="24214000" />
     </task>
     <servers />
   </component>
