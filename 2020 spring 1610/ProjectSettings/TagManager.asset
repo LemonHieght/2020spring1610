@@ -16,10 +16,10 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
-  - 
-  - 
+  - platforms
+  - forground
+  - player
+  - background
   - 
   - 
   - 
@@ -43,4 +43,16 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: forground
+    uniqueID: 2585611607
+    locked: 0
+  - name: player
+    uniqueID: 3759183317
+    locked: 0
+  - name: background
+    uniqueID: 691166225
+    locked: 0
+  - name: platforms
+    uniqueID: 1684912381
     locked: 0

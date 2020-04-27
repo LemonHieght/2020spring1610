@@ -6,8 +6,25 @@ using UnityEngine.SceneManagement;
 public class GameController : MonoBehaviour
 {
     private bool gameHasEnded = false;
+    private bool gameHasWon = false;
     public GameObject gameOverUI;
     public IntData score;
+    public GameObject gameWonUI;
+
+    void start()
+    {
+        gameHasWon = false;
+    }
+
+    public void WonGame()
+    {
+        if (gameHasWon == false)
+        {
+            gameHasWon = true;
+            Debug.Log("game complete");
+            Victory();
+        }
+    }
     public void EndGame()
     {
         if (gameHasEnded == false)
@@ -25,6 +42,10 @@ public class GameController : MonoBehaviour
         gameOverUI.SetActive(true);
     }
 
+    void Victory()
+    {
+        gameWonUI.SetActive(true);
+    }
     public void PlayGame()
     {
         SceneManager.LoadScene(0);
